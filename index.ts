@@ -10,3 +10,16 @@ function speak(food: string, energy: number): void {
 
 speak('banana', 0)
 // #--learn static type
+
+// learn interfaces
+interface MyFood {
+  name: string,
+  calories: number
+}
+
+function speakFood (food: MyFood): void {
+  console.log(`The ingredients Food Is: ${food.name} and then have calories ${food.calories}`)
+}
+
+speakFood({ name: 'Banana', calories: 0 })
+// #--learn interfaces
