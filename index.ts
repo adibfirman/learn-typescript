@@ -1,3 +1,4 @@
+// learn static type
 let firstname: string = 'adib'
 let lastname: string = 'firman'
 let myAge: number = 19
@@ -8,3 +9,4 @@ function speak(food: string, energy: number): void {
 }
 
 speak('banana', 0)
+// #--learn static type
